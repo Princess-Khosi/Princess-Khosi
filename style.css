@@ -54,7 +54,7 @@ a:hover{
     color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181,181,85);
+    text-decoration-color: rgb(181,181,181);
 }
 
 .logo{
@@ -65,13 +65,15 @@ a:hover{
     cursor: default;
 }
 
+/*Hamburger Menu*/
+
 #hamburger-nav{
     display: none;
 }
 
 .hamburger-menu{
     position: relative;
-    display:inline-block;
+    display: inline-block;
 }
 
 .hamburger-icon{
@@ -111,7 +113,7 @@ a:hover{
     transition: all 0.3 ease-in-out;
 }
 
-.menu-links{
+.menu-links li{
     list-style: none;
 }
 
