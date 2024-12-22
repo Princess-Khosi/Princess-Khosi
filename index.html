@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
+
 <body>
     <nav id="desktop-nav">
         <div class="logo">Princess-Khosi</div>
@@ -37,11 +39,39 @@
     </nav>
 
     <section id="profile">
+
         <div class="section__pic-container"> 
             <img src="./assets/profile-pic.png" alt="Princess-Khosi profile picture"/>
         </div>
+
+        <div class="section__text">
+            <p class="section__text__p1" >
+                Hello, I'm
+            </p>
+            <h1 class="title">
+                Princess-Khosi
+            </h1>
+            <p class="section__text__p2">
+                Automation test Engineer
+            </p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/Princess_Hlangu_CV.pdf')">
+                Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                Contact Info
+            </button>
+        </div>
+
+        <div id="socials-container">
+            <img src="./assets/linkedin.jpg" alt="My linkedin profile" class="icon" onclick="location.href='www.linkedin.com/in/princess-hlangu-291860315'">
+            <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='www.github.com/Princess-Khosi'">
+        </div>
+        
+    </div>
     </section>
 
     <script src="script.js"></script>
+    
 </body>
 </html>
