@@ -304,6 +304,8 @@ section{
 .section-container{
     gap: 4rem;
     height: 80%;
+    /* padding: 20px;  */
+    margin-bottom: 70px;
 }
 
 .section__pic-container{
@@ -314,9 +316,12 @@ section{
 
 /* EXPERIENCE SECTION*/
 
-#experience{
+#experience .section__text__p1{
     position: relative;
+    margin-top: 50px;
 }
+
+
 
 .experience-sub-title{
     color: rgb(85,85,85);
